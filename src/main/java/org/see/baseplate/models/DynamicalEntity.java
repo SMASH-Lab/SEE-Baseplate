@@ -190,19 +190,19 @@ public class DynamicalEntity extends PropertyChangeSubject {
         this.torque = torque;
     }
 
-    public double getMass() {
+    public Double getMass() {
         return mass;
     }
 
-    public void setMass(double mass) {
+    public void setMass(Double mass) {
         this.mass = mass;
     }
 
-    public double getMassRate() {
+    public Double getMassRate() {
         return massRate;
     }
 
-    public void setMassRate(double massRate) {
+    public void setMassRate(Double massRate) {
         this.massRate = massRate;
     }
 
